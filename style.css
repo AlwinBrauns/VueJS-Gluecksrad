@@ -1,0 +1,62 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#app{
+    display: grid;
+    justify-content: center;
+}
+
+#rad{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px rgb(56, 214, 16);
+    /*
+    transform: rotate(0deg);
+    */
+}
+
+
+#zeiger{
+    width: 5px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 20%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    top: -400px;
+    right: -200px;
+}
+
+#app button{
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgb(56, 214, 16);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#app button:focus{
+    outline: none;
+}
+
+#app button:hover{
+    background-color: rgb(166, 243, 147);
+}
+
+#app p{
+    padding: 1em;
+}
+
+#app h1{
+    padding: 0.5em;
+    color: rgb(56, 214, 16);
+    text-align: center;
+    box-shadow: 1px 1px 2px rgb(56, 214, 16);
+    border-radius: 10px;
+}
+
