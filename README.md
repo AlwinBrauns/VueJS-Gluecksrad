@@ -1,2 +1,2 @@
 # Glücksrad gemacht mit VueJS
-![Gif Example](http://imgur.com/wtFL1H7)
+!(Gif Example)[https://imgur.com/wtFL1H7]
