@@ -1,2 +1,2 @@
 # Glücksrad gemacht mit VueJS
-![Gif Example](example.gif)
+![Gif Example](exampleBetter.gif)
